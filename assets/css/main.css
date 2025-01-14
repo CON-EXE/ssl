@@ -6,7 +6,7 @@
     outline: none;
     border-style: none;
     vertical-align: baseline;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -16,4 +16,19 @@ body {
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
 }
